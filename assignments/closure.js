@@ -1,6 +1,22 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const tardies = () => {
+  let tardy = 0;
+  return function() {
+    return ++tardy;
+  }
+};
+
+  const newTardies = tardies();
+console.log(newTardies());
+console.log(newTardies());
+console.log(newTardies());
+console.log(newTardies());
+
+
+
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
