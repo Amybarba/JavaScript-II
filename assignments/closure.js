@@ -14,6 +14,23 @@ console.log(newTardies());
 console.log(newTardies());
 console.log(newTardies());
 
+function name() {
+  let name = "Spike";
+function command() {
+  console.log("Sit " + name)
+  }
+  command();
+}
+
+console.log(name());
+
+
+
+
+
+
+
+
 
 
 
