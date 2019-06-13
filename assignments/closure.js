@@ -14,15 +14,16 @@ console.log(newTardies());
 console.log(newTardies());
 console.log(newTardies());
 
-function name() {
+function animalClass() {
   let name = "Spike";
-function command() {
-  console.log("Sit " + name)
+  function animalName () {
+    console.log(name + " the cat!")
   }
-  command();
+
+  animalName();
 }
 
-console.log(name());
+console.log(animalClass());
 
 
 
